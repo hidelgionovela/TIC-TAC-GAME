@@ -2,3 +2,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 40px;
+        font-size: 16px;
+        background: transparent;
+        border: 2px solid #f109bf;
+        color:#f109bf;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        /* border-radius: 12px; */
+}
+
+button:hover{
+        box-shadow: 3px 0 13px #f109bf, inset 0px 0 13px #ffffff;
+        text-shadow: 5px 0 20px #f109bf;
+}
